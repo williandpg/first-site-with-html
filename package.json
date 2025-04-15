@@ -1,0 +1,10 @@
+{
+  "homepage": "https://williandpg.github.io/first-site-with-html",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
